@@ -1,3 +1,19 @@
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: #00004D
+}
+h3 {
+    font-size: 1rem;
+    text-align: center;
+    color: #00004D
+}
+p {
+    font-size: 1rem;
+    color: #00004D
+}
+
+
 #mapContainer {
   height: 500px;
   width: 500px;
