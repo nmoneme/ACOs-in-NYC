@@ -1,0 +1,410 @@
+[
+ {
+   "OrgName": "Montefiore Hospital (Moses Campus)",
+   "longitude": -73.8799,
+   "latitude": 40.8799,
+   "Company": "Bronx Accountable Healthcare Network IPA, Inc."
+ },
+ {
+   "OrgName": "Children’s Hospital at Montefiore",
+   "longitude": -73.879066,
+   "latitude": 40.880379,
+   "Company": "Bronx Accountable Healthcare Network IPA, Inc."
+ },
+ {
+   "OrgName": "Jack D. Weiler Hospital (Einstein Campus)",
+   "longitude": -73.844818,
+   "latitude": 40.85025,
+   "Company": "Bronx Accountable Healthcare Network IPA, Inc."
+ },
+ {
+   "OrgName": "Montefiore Wakefield Hospital (Wakefield Campus)",
+   "longitude": -73.861122,
+   "latitude": 40.893753,
+   "Company": "Bronx Accountable Healthcare Network IPA, Inc."
+ },
+ {
+   "OrgName": "Burke Rehabilitation Hospital",
+   "longitude": -73.751744,
+   "latitude": 41.0167443,
+   "Company": "Bronx Accountable Healthcare Network IPA, Inc."
+ },
+ {
+   "OrgName": "Montefiore Mount Vernon Hospital",
+   "longitude": -73.8403999,
+   "latitude": 40.9131084,
+   "Company": "Bronx Accountable Healthcare Network IPA, Inc."
+ },
+ {
+   "OrgName": "Montefiore New Rochelle Hospital",
+   "longitude": -73.7873989,
+   "latitude": 40.912827,
+   "Company": "Bronx Accountable Healthcare Network IPA, Inc."
+ },
+ {
+   "OrgName": "Montefiore Nyack Hospital",
+   "longitude": -73.9261198,
+   "latitude": 41.0959078,
+   "Company": "Bronx Accountable Healthcare Network IPA, Inc."
+ },
+ {
+   "OrgName": "Montefiore St Luke's Cornwall Hospital",
+   "longitude": -74.0144935,
+   "latitude": 41.5034105,
+   "Company": "Bronx Accountable Healthcare Network IPA, Inc."
+ },
+ {
+   "OrgName": "White Plains Hospital",
+   "longitude": -73.7692108,
+   "latitude": 41.0260998,
+   "Company": "Bronx Accountable Healthcare Network IPA, Inc."
+ },
+ {
+   "OrgName": "Montefiore Einstein Center for Cancer Care",
+   "longitude": -73.8463187,
+   "latitude": 40.8452768,
+   "Company": "Bronx Accountable Healthcare Network IPA, Inc."
+ },
+ {
+   "OrgName": "Montefiore Hutchinson Campus",
+   "longitude": -73.8387311,
+   "latitude": 40.8530159,
+   "Company": "Bronx Accountable Healthcare Network IPA, Inc."
+ },
+ {
+   "OrgName": "CAIPA",
+   "longitude": -73.9985812,
+   "latitude": 40.7168048,
+   "Company": "CAIPA Care, LLC"
+ },
+ {
+   "OrgName": "Gotham Health, Bedford",
+   "longitude": -73.941142,
+   "latitude": 40.6855193,
+   "Company": "NYC Health + Hospitals"
+ },
+ {
+   "OrgName": "Ida G Israel",
+   "longitude": -73.9852141,
+   "latitude": 40.5759476,
+   "Company": "NYC Health + Hospitals"
+ },
+ {
+   "OrgName": "Woodhull",
+   "longitude": -73.9427675,
+   "latitude": 40.6995249,
+   "Company": "NYC Health + Hospitals"
+ },
+ {
+   "OrgName": "McKinney",
+   "longitude": -73.9402256,
+   "latitude": 40.6596592,
+   "Company": "NYC Health + Hospitals"
+ },
+ {
+   "OrgName": "Kings County",
+   "longitude": -73.9446078,
+   "latitude": 40.6568067,
+   "Company": "NYC Health + Hospitals"
+ },
+ {
+   "OrgName": "Gotham Health, East New York",
+   "longitude": -73.8952404,
+   "latitude": 40.6717682,
+   "Company": "NYC Health + Hospitals"
+ },
+ {
+   "OrgName": "Gotham Health, Cumberland",
+   "longitude": -73.9765619,
+   "latitude": 40.6952811,
+   "Company": "NYC Health + Hospitals"
+ },
+ {
+   "OrgName": "Gotham Health, Crown Heights",
+   "longitude": -73.9358234,
+   "latitude": 40.6732996,
+   "Company": "NYC Health + Hospitals"
+ },
+ {
+   "OrgName": "Gotham Health, Brownsville",
+   "longitude": -73.9110991,
+   "latitude": 40.6647001,
+   "Company": "NYC Health + Hospitals"
+ },
+ {
+   "OrgName": "Gotham Health, Jonathan Williams",
+   "longitude": -73.9606954,
+   "latitude": 40.7080495,
+   "Company": "NYC Health + Hospitals"
+ },
+ {
+   "OrgName": "Gotham Health, Williamsburg",
+   "longitude": -73.9443335,
+   "latitude": 40.7120851,
+   "Company": "NYC Health + Hospitals"
+ },
+ {
+   "OrgName": "Gotham Health, Fort Greene",
+   "longitude": -73.9734651,
+   "latitude": 40.6790145,
+   "Company": "NYC Health + Hospitals"
+ },
+ {
+   "OrgName": "Coney Island",
+   "longitude": -73.9657311,
+   "latitude": 40.5860219,
+   "Company": "NYC Health + Hospitals"
+ },
+ {
+   "OrgName": "Gotham Health, Greenpoint",
+   "longitude": -73.9543197,
+   "latitude": 40.7296137,
+   "Company": "NYC Health + Hospitals"
+ },
+ {
+   "OrgName": "Gotham Health, Bushwick Communicare",
+   "longitude": -73.9187059,
+   "latitude": 40.694717,
+   "Company": "NYC Health + Hospitals"
+ },
+ {
+   "OrgName": "Gotham Health, Tremont",
+   "longitude": -73.9004707,
+   "latitude": 40.8481061,
+   "Company": "NYC Health + Hospitals"
+ },
+ {
+   "OrgName": "North Central Bronx",
+   "longitude": -73.8810842,
+   "latitude": 40.880487,
+   "Company": "NYC Health + Hospitals"
+ },
+ {
+   "OrgName": "Lincoln",
+   "longitude": -73.9241114,
+   "latitude": 40.8172975,
+   "Company": "NYC Health + Hospitals"
+ },
+ {
+   "OrgName": "Jacobi",
+   "longitude": -73.8474198,
+   "latitude": 40.8567094,
+   "Company": "NYC Health + Hospitals"
+ },
+ {
+   "OrgName": "Gotham Health, Morrisania",
+   "longitude": -73.920374,
+   "latitude": 40.8364041,
+   "Company": "NYC Health + Hospitals"
+ },
+ {
+   "OrgName": "Gotham Health, Belvis",
+   "longitude": -73.9158911,
+   "latitude": 40.810174,
+   "Company": "NYC Health + Hospitals"
+ },
+ {
+   "OrgName": "Gotham Health, Gunhill",
+   "longitude": -73.8576634,
+   "latitude": 40.8742833,
+   "Company": "NYC Health + Hospitals"
+ },
+ {
+   "OrgName": "Gotham Health, Vanderbilt",
+   "longitude": -74.0768861,
+   "latitude": 40.6203511,
+   "Company": "NYC Health + Hospitals"
+ },
+ {
+   "OrgName": "Sea View",
+   "longitude": -74.133539,
+   "latitude": 40.5923545,
+   "Company": "NYC Health + Hospitals"
+ },
+ {
+   "OrgName": "Gotham Health, Woodside",
+   "longitude": -73.9104594,
+   "latitude": 40.7533754,
+   "Company": "NYC Health + Hospitals"
+ },
+ {
+   "OrgName": "Gotham Health, Lefrak",
+   "longitude": -73.8676474,
+   "latitude": 40.7447884,
+   "Company": "NYC Health + Hospitals"
+ },
+ {
+   "OrgName": "Gotham Health, Springfield Gardens",
+   "longitude": -73.7547446,
+   "latitude": 40.6788335,
+   "Company": "NYC Health + Hospitals"
+ },
+ {
+   "OrgName": "Gotham Health, South Queens",
+   "longitude": -73.7858495,
+   "latitude": 40.688506,
+   "Company": "NYC Health + Hospitals"
+ },
+ {
+   "OrgName": "Gotham Health, Ridgewood",
+   "longitude": -73.905394,
+   "latitude": 40.7030286,
+   "Company": "NYC Health + Hospitals"
+ },
+ {
+   "OrgName": "Gotham Health, Parsons",
+   "longitude": -73.8002685,
+   "latitude": 40.7040912,
+   "Company": "NYC Health + Hospitals"
+ },
+ {
+   "OrgName": "Queens",
+   "longitude": -73.8042568,
+   "latitude": 40.7169311,
+   "Company": "NYC Health + Hospitals"
+ },
+ {
+   "OrgName": "Gotham Health, Jackson Heights",
+   "longitude": -73.8720449,
+   "latitude": 40.7541856,
+   "Company": "NYC Health + Hospitals"
+ },
+ {
+   "OrgName": "Elmhurst",
+   "longitude": -73.8860619,
+   "latitude": 40.7447989,
+   "Company": "NYC Health + Hospitals"
+ },
+ {
+   "OrgName": "Metropolitan",
+   "longitude": -73.9443386,
+   "latitude": 40.7847455,
+   "Company": "NYC Health + Hospitals"
+ },
+ {
+   "OrgName": "Harlem",
+   "longitude": -73.9403066,
+   "latitude": 40.8143457,
+   "Company": "NYC Health + Hospitals"
+ },
+ {
+   "OrgName": "Gotham Health, Gouverneur",
+   "longitude": -73.9877851,
+   "latitude": 40.7131971,
+   "Company": "NYC Health + Hospitals"
+ },
+ {
+   "OrgName": "Gotham Health, Sydenham",
+   "longitude": -73.9536463,
+   "latitude": 40.8051549,
+   "Company": "NYC Health + Hospitals"
+ },
+ {
+   "OrgName": "Gotham Health, Roberto Clemente",
+   "longitude": -73.9792853,
+   "latitude": 40.728813,
+   "Company": "NYC Health + Hospitals"
+ },
+ {
+   "OrgName": "Gotham Health, Dyckman",
+   "longitude": -73.9242208,
+   "latitude": 40.8613897,
+   "Company": "NYC Health + Hospitals"
+ },
+ {
+   "OrgName": "Gotham Health, St. Nicholas",
+   "longitude": -73.9496646,
+   "latitude": 40.8115214,
+   "Company": "NYC Health + Hospitals"
+ },
+ {
+   "OrgName": "Gotham Health, Judson",
+   "longitude": -73.9958739,
+   "latitude": 40.7216657,
+   "Company": "NYC Health + Hospitals"
+ },
+ {
+   "OrgName": "Coler",
+   "longitude": -73.9421128,
+   "latitude": 40.7703666,
+   "Company": "NYC Health + Hospitals"
+ },
+ {
+   "OrgName": "Carter",
+   "longitude": -73.94112,
+   "latitude": 40.8029996,
+   "Company": "NYC Health + Hospitals"
+ },
+ {
+   "OrgName": "Bellevue",
+   "longitude": -73.9760521,
+   "latitude": 40.7396034,
+   "Company": "NYC Health + Hospitals"
+ },
+ {
+   "OrgName": "Mount Sinai Brooklyn",
+   "longitude": -73.9429497,
+   "latitude": 40.6186129,
+   "Company": "Mount Sinai"
+ },
+ {
+   "OrgName": "The Mount Sinai Hospital",
+   "longitude": -73.953623,
+   "latitude": 40.7899333,
+   "Company": "Mount Sinai"
+ },
+ {
+   "OrgName": "Mount Sinai Morningside",
+   "longitude": -73.9613868,
+   "latitude": 40.8056443,
+   "Company": "Mount Sinai"
+ },
+ {
+   "OrgName": "Mount Sinai Queens",
+   "longitude": -73.9248417,
+   "latitude": 40.7680555,
+   "Company": "Mount Sinai"
+ },
+ {
+   "OrgName": "Mount Sinai South Nassau",
+   "longitude": -73.63057498,
+   "latitude": 40.65279385,
+   "Company": "Mount Sinai"
+ },
+ {
+   "OrgName": "Mount Sinai West​​​",
+   "longitude": -73.9870125,
+   "latitude": 40.7697915,
+   "Company": "Mount Sinai"
+ },
+ {
+   "OrgName": "New York Eye and Ear Infirmary of Mount Sinai",
+   "longitude": -73.9845075,
+   "latitude": 40.7319295,
+   "Company": "Mount Sinai"
+ },
+ {
+   "OrgName": "The Spine Hospital at Mount Sinai",
+   "longitude": -73.9539668,
+   "latitude": 40.7891215,
+   "Company": "Mount Sinai"
+ },
+ {
+   "OrgName": "Mount Sinai Kravis Children's Hospital",
+   "longitude": -73.9537779,
+   "latitude": 40.790131,
+   "Company": "Mount Sinai"
+ },
+ {
+   "OrgName": "Mount Sinai-Union Square",
+   "longitude": -73.989725,
+   "latitude": 40.7348468,
+   "Company": "Mount Sinai"
+ },
+ {
+   "OrgName": "The Blavatnik Family – Chelsea Medical Center",
+   "longitude": -74.0034379,
+   "latitude": 40.7412792,
+   "Company": "Mount Sinai"
+ }
+]
