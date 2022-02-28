@@ -1,6 +1,6 @@
 
 
-$.getJSON('/data/acorows.json', function(acoRows){
+$.getJSON('./data/acorows.json', function(acoRows){
   console.log(acoRows)
 
   mapboxgl.accessToken = 'pk.eyJ1Ijoibm1vbmVtZSIsImEiOiJja3pyYnNmdDA2cXE4Mndtejd5MndwZXFyIn0.3B86lPpNNoajWqAGCQyWYw'
