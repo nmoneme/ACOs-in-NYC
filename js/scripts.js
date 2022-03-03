@@ -5,9 +5,12 @@ $.getJSON('./data/acorows.json', function(acoRows){
 
   mapboxgl.accessToken = 'pk.eyJ1Ijoibm1vbmVtZSIsImEiOiJja3pyYnNmdDA2cXE4Mndtejd5MndwZXFyIn0.3B86lPpNNoajWqAGCQyWYw'
 
-  // lmgLat for ...
-  var wspCenter = [-73.876877,40.762332]
-// 74.0060, 40.7128
+  // lngLat for ...
+  var wspCenter = [-73.905774,40.772324]
+// -73.876877,40.762332
+
+
+
   var map = new mapboxgl.Map({
     container: 'mapContainer', // HTML container id
     style: 'mapbox://styles/mapbox/streets-v9', // style URL
@@ -15,9 +18,115 @@ $.getJSON('./data/acorows.json', function(acoRows){
     zoom: 10
   });
 
-  var popup = new mapboxgl.Popup({
-    offset: 40,
-  })
+
+// locations of departments using nyc-doh.geojson
+  map.on('load', function()  {
+    map.addSource('nyc-doh', {
+    type: 'geojson',
+    // Use a URL for the value for the `data` property.
+    data: './data/nyc-doh.geojson'
+  });
+
+
+map.addLayer({
+    'id': 'nyc-doh-fill',
+    'type': 'fill',
+    'source': 'nyc-doh',
+    'paint': {
+      'fill-color': '#ed7272',
+      'fill-outline-color': '#db1212'
+    }
+  });
+
+//   map.addSource('nyc-doh-locations', {
+//   type: 'geojson',
+//   // Use a URL for the value for the `data` property.
+//   data: './data/nyc-doh-locations.geojson'
+//   });
+//
+//
+//   map.addLayer({
+//       'id': 'nyc-doh-shape',
+//       'type': 'fill',
+//       'source': 'nyc-doh-locations',
+//       'paint': {
+//         'fill-color': '#ed7272',
+//         'fill-outline-color': '#db1212'
+//       }
+//     });
+//   })
+//
+})
+
+// create pop up for doh
+    map.on('click', 'nyc-doh-fill', function(e) {
+
+      const coordinates = e.lngLat;
+      const name = e.features[0].properties.name;
+      const address = e.features[0].properties.address;
+      const phone = e.features[0].properties.phone;
+
+      const popupText=`
+        <p> <strong>${name}</strong> is located at <strong>${address} </strong> and can be reached by phone at <strong>${phone} </strong>.</p>
+      `;
+
+      new mapboxgl.Popup({ offset: 10 })
+        .setLngLat(coordinates)
+        .setHTML(popupText)
+        .addTo(map);
+
+    });
+
+    // locate the NYC DOH with a click on the button
+    // https://docs.mapbox.com/mapbox-gl-js/example/flyto/
+    $('#find-doh').on('click', function() {
+        map.flyTo({
+          center: [
+            -73.938973,
+            40.749424
+          ],
+          zoom: 17,
+        })
+
+      })
+
+
+// // create legend
+// const layers = [
+//
+// 'Bronx Accountable Healthcare Network IPA, Inc.',
+// 'Mount Sinai',
+// 'CAIPA Care, LLC',
+// 'NYC Health + Hospitals'
+// ];
+// const colors = [
+// 'brown',
+// 'pink',
+// 'orange',
+// 'blue'
+// ];
+//
+// // create legend. Source: https://docs.mapbox.com/help/tutorials/choropleth-studio-gl-pt-2/#add-a-legend
+// const legend = document.getElementById('legend');
+//
+// layers.forEach((layer, i) => {
+//
+//   const color = colors[i];
+//  const item = document.createElement('div');
+//  const key = document.createElement('span');
+//  key.className = 'legend-key';
+//  key.style.backgroundColor = color;
+//
+//  const value = document.createElement('span');
+//  value.innerHTML = `${layer}`;
+//  item.appendChild(key);
+//  item.appendChild(value);
+//  legend.appendChild(item);
+// });
+
+    var popup = new mapboxgl.Popup({
+      offset: 40,
+    })
 
 
   // marker for the wsp function

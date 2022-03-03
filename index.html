@@ -10,21 +10,45 @@
   <link href='https://api.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css' rel='stylesheet' />
   <link rel="stylesheet" href="css/styles.css">
 
+<style>
+  #overlay {
+        font-family: sans-serif;
+        position: absolute;
+        z-index: 1;
+        top: 10px;
+        left: 10px;
+        background: #f5eabc;
+        padding: 15px;
+        border-radius: 5px;
+        max-width: 400px;
+      }
+
+      h3 {
+        margin-top: 0;
+      }
+ </style>
 </head>
 
 <body>
-  <h1>Accountable Care Organizations in New York City</h1>
-  <div>
-    <h3>ACO Locations</h3>
-    <p> Here are some Accountable Care Organizations you should know. Click to see the location of each organization!</p>
-  </div>
-  <div class='container'>
-    <div class='sidebar'>
+  <div id="overlay">
+      <h3>Accountable Care Organizaitions Throughout New York City</h3>
+      <p>Accountable Care Organization (ACO): <em>"an organization of clinically integrated health care providers that work together to provide, manage, and coordinate health care (including primary care) for a defined population; with a mechanism for shared governance; the ability to negotiate, receive, and distribute payments; and accountability for the quality, cost, and delivery of health care to the ACO's patients" </em></p>
+      <p>—Public Health Law (PHL) Article 29-E</p>
+      <p>The NYC Department of Health (DOH) is required to establish a program governing the approval of ACOs</p>
+      <p>For more information, visit the <a href="https://www.health.ny.gov/health_care/medicaid/redesign/aco/">NYC DOH</a> official website.</p>
+      <!-- HTML !-->
+      <button class="button-53" id= "find-doh" role="button">Click here to locate the NYC Department of Health!</button>
+      <!-- <button class 'button-53' id='find-doh' role = 'button'> Click here to locate the NYC Department of Health </button> -->
+      <p></p>
+    </div>
 
-  </div>
   <div id='mapContainer'>
     <!-- where mapboxgl inserts map -->
     </div>
+
+    <!-- <div class="map-overlay" id="legend"> -->
+
+     </div>
   </div>
 
   <!-- your content here... -->
